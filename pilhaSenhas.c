@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #define SIZE 10
 
-//Aluno: Marcos André Lima de Melo
-//Turma : CC3
-//matricula : 20191BCC0019
-
 int id[SIZE];
 char pass[SIZE][20];
 int control = 0;
