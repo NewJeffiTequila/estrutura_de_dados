@@ -49,8 +49,6 @@ C. 1 ed. São Paulo: Pioneira, 1993
 *  [Dev c++](https://sourceforge.net/projects/orwelldevcpp//)
 *  [CodeBlocks](http://www.codeblocks.org/)
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
 
 ### RODANDO C VIA TERMINAL
 
