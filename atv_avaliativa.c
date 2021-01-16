@@ -70,10 +70,10 @@ int main(){
 
     while( opcao != 4){
         printf("\n ------------ \n");
-        printf("\n [1]empilhar (push): \n");
-        printf("\n [2]Desempilhar (pop): \n");
-        printf("\n [3]Listar a Pilha: \n");
-        printf("\n [4] Sair? \n");
+        printf("\n [1]EMPILHAR (push): \n");
+        printf("\n [2]DESEMPILHAR (pop): \n");
+        printf("\n [3]LISTAR: \n");
+        printf("\n [4] SAIR? \n");
         scanf("%d", &opcao);
 
         switch(opcao) {
@@ -81,12 +81,12 @@ int main(){
                 
                 while(1){
 
-                    printf("\n digite o elemento: \n");
+                    printf("\n DIGITE O ELEMENTO: \n");
                     scanf("%d",&aux);
                         if(pilhaCheia(p) == 0){
                             pilhaInsere(p,aux);
                         }else{
-                            printf("\n Pilha cheia \n");
+                            printf("\n A PILHA ESTA CHEIA \n");
                             break;
                         }
                         
@@ -94,7 +94,7 @@ int main(){
                 break;
             case 2:
                 removido = pilhaRemove(p);
-                printf("\n Valor removido [%d]", removido);
+                printf("\n O VALOR [%d] FOI REMOVIDO", removido);
                 break;
             case 3:
                 listarPilha(p);
@@ -104,7 +104,7 @@ int main(){
                 break;
             default:
                 system("cls");
-                printf("\nOpcao invalida. Valores de 1 - 4...\n");
+                printf("\nOPCAO INVALIDA. Valores de 1 - 4...\n");
                     //sleep(1);
         }
 
